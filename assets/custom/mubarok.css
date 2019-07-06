@@ -1,0 +1,92 @@
+.cnt{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 600;
+}
+.cnt input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.cnt:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.cnt input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.cnt input:checked ~ .checkmark:after {
+    display: block;
+}
+.cnt .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+.blt{
+    color: #3D8DBC;
+    margin: 0;
+}
+.mb{
+    margin-bottom: 10px;
+}
+.data-pasien, .end{
+    margin: 20px 0;
+}
+.ngaglik{
+    color: #3D8DBC; margin-bottom: 0;
+}
+.bhn{
+    color: #3D8DBC; margin: 0;
+}
+.hjk{
+    margin-top: 2px; width: 28%;
+}
+.spd{
+    width: 70%;
+}
+.k{border: 0 !important;}
+.hlk{
+    margin-top: 15px; width: 28%; text-align: right;
+}
+.jui{
+    width: 70%; margin-top: 13px; padding-left: 10px;
+}
+.contain{
+    border: 1.5px solid #3D8DBC; padding: 8px; background: #fff;
+}
+.head-section{border-bottom: 2px solid #3D8DBC;padding-bottom: 10px;}
+.kio{margin-bottom: 20px;}
+table.blt {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+.tambahan{width: 100%; padding-left: 40px;}
+.kjl{border:0; width: 100%;}
+.yui{border: 0;
+    margin-bottom: 8px;}
+.ghy{padding-bottom: 40px;}
